@@ -25,7 +25,7 @@ plt.xlabel('Week [1W]')
 plt.show()
 
 # Load data
-relative_path = 'assets\\data\\chapter_1\\a10.csv'
+relative_path = 'assets\\data\\chapter_2\\a10.csv'
 file_path = os.path.join(current_directory, relative_path)
 a10_df = pd.read_csv(file_path)
 
