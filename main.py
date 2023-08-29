@@ -1,3 +1,3 @@
-import pysight
+from pysight import fpp3
 
-print(pysight.chapter_5.section_5_2.some_simple_forecasting_methods.get_bricks_data())
+fpp3.chapter_2.section_2_4.seasonal_plots.seasonal_plots()
